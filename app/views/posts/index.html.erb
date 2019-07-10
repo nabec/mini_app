@@ -1,0 +1,7 @@
+<div class="contents row">
+  <% @post.each do |post| %>
+    <div class="content_post">
+      <%= simple_format(post.text) %>
+      <span class="name"><%= post.name %></span>
+  <% end %>
+</div>
