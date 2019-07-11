@@ -1,0 +1,41 @@
+.nav-wrapper {
+  padding-left: 100px;
+}
+
+span {
+  margin: 0 10px;
+}
+
+.contents {
+  margin: 20px auto;
+  width: 60%;
+}
+
+.content_post {
+  min-height: 10px;
+  background-color: rgb(245, 240, 233);
+}
+
+.more_list {
+  display: flex;
+}
+
+li {
+  margin-right: 30px;
+}
+
+.name {
+  width: 100%;
+  text-align: right;
+}
+
+.grid {
+  text-align: right;
+  padding-right: 50px;
+}
+
+.pagination {
+  text-align: center;
+  background-color:#4caf50;
+  margin-top: 20px;
+}
